@@ -38,18 +38,21 @@ body {
     justify-content: center;
     font-weight: bold; /* Hace que el texto esté en negrita */
     text-align: center; /* Centra el texto dentro del párrafo */
-
+    border : none;
 }
 
 .card-loading {
-    width: 200px; /* Tamaño del div circular */
-    height: 200px;     
-
+   
+    width: 400px; /* Tamaño del div circular */
+    height: 400px;
+    background-image: url('images/ball-pokemon.gif');
+    background-position: center; /* Centra la imagen horizontalmente y verticalmente */
+    background-repeat: no-repeat;
+   
   }
 .card-image{
     height: 80px;
-    width: 80px; 
-   
+    width: 80px;    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    

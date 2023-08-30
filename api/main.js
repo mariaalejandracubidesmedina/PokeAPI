@@ -13,12 +13,12 @@ import {
   let nextUrl = ""; //Variables para url
   
   /* COMPONENTE DE CARGA */  
-  root.innerHTML = `<img class='card-loading src='../assets/styles/images/ball-pokemon.gif'`;
+  root.innerHTML = `<div class='card-loading'></div>'`;
   
   /*DECLARACION FUNCION PARA LLAMAR A LA API Y MOSTRAR EN PANTALLA LAS CARDS */
   async function mostrarPokemones(url) {
     /* COMPONENTE DE CARGA */
-    root.innerHTML = `<img class='card-loading src='../assets/styles/images/ball-pokemon.gif'`;
+    root.innerHTML = `<div class='card-loading'></div>'`;
     
     let objetoPokemon = await buscarPokemon(url);
   
